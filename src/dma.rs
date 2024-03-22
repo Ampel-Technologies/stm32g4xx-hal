@@ -18,7 +18,7 @@
 use core::fmt::Debug;
 
 pub mod config;
-pub(crate) mod mux;
+pub mod mux;
 pub mod stream; // DMA MUX // DMA1 and DMA2
 pub mod traits;
 pub mod transfer;
