@@ -1891,7 +1891,7 @@ macro_rules! adc {
                 /// Calibrate the Adc for all Input Types
                 #[inline(always)]
                 pub fn calibrate_all(&mut self) {
-                    self.calibrate(config::InputType::Differential);
+                    //self.calibrate(config::InputType::Differential);
                     self.calibrate(config::InputType::SingleEnded);
                 }
 
