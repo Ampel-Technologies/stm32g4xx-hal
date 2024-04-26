@@ -1892,7 +1892,7 @@ macro_rules! adc {
                 #[inline(always)]
                 pub fn calibrate_all(&mut self) {
                     //self.calibrate(config::InputType::Differential);
-                    self.calibrate(config::InputType::SingleEnded);
+                    //self.calibrate(config::InputType::SingleEnded);
                 }
 
                 /// Configure a channel for sampling.
